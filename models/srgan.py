@@ -5,6 +5,7 @@ from tensorflow.python.keras.layers import PReLU
 
 from utils.normalization import normalize_m11
 
+
 def discriminator_block(x_in, num_filters, strides=1, batchnorm=True, momentum=0.8):
     x = Conv2D(num_filters, kernel_size=3, strides=strides, padding='same')(x_in)
     if batchnorm:

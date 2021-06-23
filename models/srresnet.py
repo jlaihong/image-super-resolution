@@ -5,10 +5,19 @@ from tensorflow.python.keras.layers import PReLU
 
 from utils.normalization import normalize_01, denormalize_m11
 
+
 upsamples_per_scale = {
     2: 1,
     4: 2,
     8: 3
+}
+
+
+pretrained_srresnet_models = {
+    "srresnet_bicubic_x4": {
+        "url": "https://image-super-resolution-weights.s3.af-south-1.amazonaws.com/srresnet_bicubic_x4/generator.h5",
+        "scale": 4
+    }
 }
 
 
