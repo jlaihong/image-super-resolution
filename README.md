@@ -3,6 +3,12 @@
 A TensorFlow 2 implementation of the paper [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial
 Network](https://arxiv.org/pdf/1609.04802.pdf)
 
+## Examples
+
+![Input Image](examples/input_images/000002x4.png)
+![SRResNet](examples/srresnet_bicubic_x4/000002x4.png)
+![SRGAN](examples/srgan_bicubic_x4/000002x4.png)
+
 ## Quick Start
 
 
