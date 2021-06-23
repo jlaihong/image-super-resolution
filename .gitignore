@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+/ckpt/
+**/__pycache__/
+weights/*
+/div2k/
+.env
