@@ -42,6 +42,8 @@ Follow the code in: train_SRRestNet_and_SRGAN.ipynb.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jlaihong/image-super-resolution/blob/main/train_SRRestNet_and_SRGAN.ipynb)
 
+**If training on colab, be sure to use a GPU (runtime > Change runtime type > GPU)**
+
 The models train using the [div2k dataset](https://data.vision.ee.ethz.ch/cvl/DIV2K/) using the parameters specified in the paper [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial
 Network](https://arxiv.org/pdf/1609.04802.pdf). I have added a slight adaptation to handle noise from jpeg images when upscaling.
 
