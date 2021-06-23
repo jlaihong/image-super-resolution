@@ -34,6 +34,8 @@ model_name = "srresnet"
 model_name = "srgan"
 ```
 
+Output images will appear in either examples/srresnet_bicubic_x4 or examples/srgan_bicubic_x4, depending on the selected model.
+
 ## Training
 
 Follow the code in: train_SRRestNet_and_SRGAN.ipynb. 
