@@ -5,9 +5,14 @@ Network](https://arxiv.org/pdf/1609.04802.pdf)
 
 ## Examples
 
-![Input Image](examples/input_images/000002x4.png)
-![SRResNet](examples/srresnet_bicubic_x4/000002x4.png)
-![SRGAN](examples/srgan_bicubic_x4/000002x4.png)
+Input Image
+<img src="examples/input_images/000002x4.png" alt="input image" width="100%"/>
+
+SRResNet
+<img src="examples/srresnet_bicubic_x4/000002x4.png" alt="srresnet" width="100%"/>
+
+SRGAN
+<img src="examples/srgan_bicubic_x4/000002x4.png" alt="srgan" width="100%"/>
 
 ## Quick Start
 
