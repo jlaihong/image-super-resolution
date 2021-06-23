@@ -6,13 +6,13 @@ Network](https://arxiv.org/pdf/1609.04802.pdf)
 ## Examples
 
 Input Image
-<img src="examples/input_images/000002x4.png" alt="input image" width="100%"/>
+<img src="examples/input_images/187_0019.jpg" alt="input image" width="100%"/>
 
 SRResNet
-<img src="examples/srresnet_bicubic_x4/000002x4.png" alt="srresnet" width="100%"/>
+<img src="examples/srresnet_bicubic_x4/187_0019.jpg" alt="srresnet" width="100%"/>
 
 SRGAN
-<img src="examples/srgan_bicubic_x4/000002x4.png" alt="srgan" width="100%"/>
+<img src="examples/srgan_bicubic_x4/187_0019.jpg" alt="srgan" width="100%"/>
 
 ## Quick Start
 
@@ -72,7 +72,9 @@ Data will automatically be downloaded and the super resolution scale will be set
 
 # Acknowledgements
 
-Example images come from [Flickr2K_LR_bicubic X4](https://cv.snu.ac.kr/research/EDSR/Flickr2K.tar)
+Example images 000002x4.png, 000003x4.png, 000004x4.png come from [Flickr2K_LR_bicubic X4](https://cv.snu.ac.kr/research/EDSR/Flickr2K.tar)
+
+Example image 187_0019.jpg comes from [Caltech 256](http://www.vision.caltech.edu/Image_Datasets/Caltech256/)
 
 Much of the code in this repository has been refactored from 
 https://github.com/krasserm/super-resolution
