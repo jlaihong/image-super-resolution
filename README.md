@@ -16,12 +16,13 @@ SRGAN
 
 ## Quick Start
 
+### Usage
 
-## Usage
+To run the models, follow the code in: run_model.ipynb.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jlaihong/image-super-resolution/blob/main/run_model.ipynb)
 
 Add images to the examples/input_images directory.
-
-Follow the code in: run_model.ipynb.
 
 Select between SRResNet or SRGAN
 
