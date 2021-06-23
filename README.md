@@ -3,13 +3,28 @@
 A TensorFlow 2 implementation of the paper [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial
 Network](https://arxiv.org/pdf/1609.04802.pdf)
 
+## Quick Start
+
+
 ## Usage
 
+Add images to the examples/input_images directory.
 
+Follow the code in: run_model.ipynb.
+
+Select between SRResNet or SRGAN
+
+```python
+model_name = "srresnet"
+```
+
+```python
+model_name = "srgan"
+```
 
 ## Training
 
-Follow the code in: SRRestNet_and_SRGAN_train.ipynb. 
+Follow the code in: train_SRRestNet_and_SRGAN.ipynb. 
 
 The models train using the [div2k dataset](https://data.vision.ee.ethz.ch/cvl/DIV2K/) using the parameters specified in the paper [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial
 Network](https://arxiv.org/pdf/1609.04802.pdf). I have added a slight adaptation to handle noise from jpeg images when upscaling.
@@ -45,6 +60,8 @@ Data will automatically be downloaded and the super resolution scale will be set
 
 
 # Acknowledgements
+
+Example images come from [Flickr2K_LR_bicubic X4](https://cv.snu.ac.kr/research/EDSR/Flickr2K.tar)
 
 Much of the code in this repository has been refactored from 
 https://github.com/krasserm/super-resolution
