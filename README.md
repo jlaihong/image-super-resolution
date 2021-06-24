@@ -22,7 +22,7 @@ To run the models an different images, follow the code in: run_model.ipynb.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jlaihong/image-super-resolution/blob/main/run_model.ipynb)
 
-Add images to the examples/input_images directory.
+Add images to the input directory.
 
 Select between SRResNet or SRGAN
 
@@ -34,7 +34,7 @@ model_name = "srresnet"
 model_name = "srgan"
 ```
 
-Output images will appear in either examples/srresnet_bicubic_x4 or examples/srgan_bicubic_x4, depending on the selected model.
+Output images will appear in either output/srresnet_bicubic_x4 or output/srgan_bicubic_x4, depending on the selected model.
 
 ## Training
 
