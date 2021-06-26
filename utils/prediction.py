@@ -72,7 +72,7 @@ def process_full_image(model, lr):
     sr = tf.clip_by_value(sr, 0, 255)
     sr = tf.round(sr)
     sr = tf.cast(sr, tf.uint8)
-    sr = Image.fromarray(sr.numpy())
+    return Image.fromarray(sr.numpy())
 
 
 def join_patches(patches, patches_per_row, patches_per_col):
